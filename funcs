@@ -1,0 +1,7 @@
+def string_to_pretty_list(mystring):
+      mylist = []
+      mystring = mystring.split(",")
+      for a in mystring:
+        mylist.append(a.strip())
+      return mylist
+
